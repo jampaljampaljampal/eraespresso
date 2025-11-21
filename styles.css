@@ -111,3 +111,95 @@ body {
 .social-links a:hover::after {
   transform: scaleX(1);
 }
+
+.site-header {
+  position: sticky;
+  top: 0;
+  background-color: #000;
+  z-index: 1000;
+  padding: 20px 0;
+  border-bottom: 2px solid rgba(253, 208, 40, 1);
+}
+
+.header-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  max-width: 300px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.5em;
+  margin-top: 0;
+}
+
+.nav-links a {
+  font-family: 'Fjalla One', sans-serif;
+  color: rgba(253, 208, 40, 1);
+  text-decoration: none;
+  font-size: 1.4em;
+  position: relative;
+}
+
+.nav-links a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 100%;
+  height: 2px;
+  background-color: currentColor;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease;
+}
+
+.nav-links a:hover::after {
+  transform: scaleX(1);
+}
+.site-footer {
+  background-color: #000;
+  padding: 30px 0;
+  border-top: 2px solid rgba(253, 208, 40, 1);
+  margin-top: 60px;
+  text-align: center;
+}
+
+.footer-links {
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 1.1em;
+}
+
+.footer-links a {
+  text-decoration: none;
+  margin: 0 10px;
+  transition: color 0.3s;
+}
+
+.footer-links a.instagram {
+  color: #E1306C;
+}
+
+.footer-links a.instagram:hover {
+  color: #ff66a5;
+}
+
+.footer-links a.facebook {
+  color: #1877F2;
+}
+
+.footer-links a.facebook:hover {
+  color: #4c9eff;
+}
+
+.footer-links i {
+  margin-right: 8px;
+}
