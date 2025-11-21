@@ -36,3 +36,26 @@ body {
 .nav-links a:hover {
   border-color: rgba(253, 208, 40, 1);
 }
+
+.order-button-container {
+  margin-top: 40px;
+}
+
+.order-button {
+  font-family: 'Fjalla One', sans-serif;
+  color: white;
+  background-color: transparent;
+  border: 2px solid white;
+  padding: 12px 30px;
+  font-size: 1.4em;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.order-button:hover {
+  background-color: rgba(253, 208, 40, 1);
+  color: black;
+  border-color: rgba(253, 208, 40, 1);
+}
