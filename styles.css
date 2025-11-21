@@ -11,7 +11,7 @@ body {
 }
 
 .top-image {
-  max-width: 300px;
+  max-width: 750px; /* 250% of original 300px */
   height: auto;
   display: block;
   margin: 0 auto 30px;
