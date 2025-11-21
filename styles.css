@@ -120,27 +120,27 @@ body {
   padding: 20px 0;
   border-bottom: 2px solid rgba(253, 208, 40, 1);
 }
-
 .header-content {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+  flex-wrap: wrap;
 }
 
 .logo {
-  max-width: 300px;
+  max-width: 500px;
   height: auto;
-  margin-bottom: 20px;
 }
 
 .nav-links {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 2.5em;
+  flex-direction: row; /* horizontal layout */
+  gap: 40px;
   margin-top: 0;
 }
-
 .nav-links a {
   font-family: 'Fjalla One', sans-serif;
   color: rgba(253, 208, 40, 1);
