@@ -221,3 +221,33 @@ body {
   font-size: 1.1em;
   line-height: 1.6;
 }
+
+.menu-content {
+  margin: 60px auto;
+  text-align: center;
+}
+
+.menu-image {
+  max-width: 90%;
+  height: auto;
+  border: 4px solid rgba(253, 208, 40, 1); /* optional highlight */
+}
+
+.gallery-content {
+  margin: 60px auto;
+  max-width: 1000px;
+  padding: 0 20px;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 images per row */
+  gap: 20px;
+}
+
+.gallery-grid img {
+  width: 100%;
+  height: auto;
+  border: 4px solid rgba(253, 208, 40, 1); /* optional highlight */
+  border-radius: 8px; /* optional rounded corners */
+}
