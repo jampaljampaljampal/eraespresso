@@ -170,10 +170,10 @@ body {
   margin-top: 60px;
   text-align: center;
 }
-
 .footer-links {
   font-family: 'Fjalla One', sans-serif;
   font-size: 1.1em;
+  text-align: center; /* centers the links */
 }
 
 .footer-links a {
@@ -183,7 +183,7 @@ body {
 }
 
 .footer-links a.instagram {
-  color: #E1306C;
+  color: #E1306C; /* Instagram pink */
 }
 
 .footer-links a.instagram:hover {
@@ -191,7 +191,7 @@ body {
 }
 
 .footer-links a.facebook {
-  color: #1877F2;
+  color: #1877F2; /* Facebook blue */
 }
 
 .footer-links a.facebook:hover {
@@ -201,9 +201,8 @@ body {
 .footer-links i {
   margin-right: 8px;
 }
-
 .about-content {
-  max-width: 700px;        /* controls the width of the text block */
+  max-width: 400px;        /* controls the width of the text block */
   margin: 60px auto 0;     /* centers the block horizontally */
   text-align: left;        /* keeps text left-aligned inside the block */
   padding: 0 20px;         /* adds breathing room on smaller screens */
