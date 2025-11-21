@@ -128,9 +128,9 @@ body {
 }
 
 .logo {
-  max-width: 300px;
+  max-width: 500px;
   height: auto;
-  margin-bottom: 20px;      /* space between logo and nav */
+  margin-bottom: 40px;      /* space between logo and nav */
 }
 
 .nav-links {
@@ -200,4 +200,25 @@ body {
 
 .footer-links i {
   margin-right: 8px;
+}
+
+.about-content {
+  max-width: 700px;        /* controls the width of the text block */
+  margin: 60px auto 0;     /* centers the block horizontally */
+  text-align: left;        /* keeps text left-aligned inside the block */
+  padding: 0 20px;         /* adds breathing room on smaller screens */
+}
+
+.about-content h1 {
+  font-family: 'Fjalla One', sans-serif;
+  color: rgba(253, 208, 40, 1);
+  font-size: 2.5em;
+  margin-bottom: 0;
+  text-align: left;
+}
+
+.about-content p {
+  color: white;
+  font-size: 1.1em;
+  line-height: 1.6;
 }
